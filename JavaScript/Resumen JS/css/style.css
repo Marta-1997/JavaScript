@@ -1,0 +1,35 @@
+body{
+    height: 70vw;
+}
+.cabecera,section,nav{
+    width: 75%;
+    margin: auto;
+}
+.menujs{
+    background-color: rgb(85, 90, 84);
+    padding:5px;
+
+
+}
+.menu{
+    list-style: none;
+    display: flex; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(249, 249, 249);
+}
+.menu li{
+    padding: 25px;  
+    width: 150px;
+    margin:auto;
+    
+} 
+a{
+    color: aliceblue;
+    text-decoration-line: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+a:hover{ 
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+}
