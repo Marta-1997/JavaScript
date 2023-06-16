@@ -33,3 +33,8 @@ a:hover{
     color: rgb(0, 0, 0);
     
 }
+.imagen{
+    padding:5px;
+    margin: auto;
+    width: 75%
+}
