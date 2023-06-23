@@ -93,3 +93,55 @@ switch(nota){
 document.getElementById("mns").innerHTML=notaF;
 
 }
+
+/**
+ *  for(let i=1; i>10; i++)
+ * 
+ * Ejercicio: Mostrar en consola los numeros del 1 al 20 de mayor a menor
+ * 
+ * for (let i=20; i>0; i--)
+ */
+
+for (let i=20; i>0; i=i-2){
+    console.log (i);
+}
+
+//bucle for each ->
+//              1       2          3    4       5
+
+function cambiarColor(){
+let colores=["#f2f2f2","#601160","blue","red","#859475","#d8d5d7"];
+
+let indice=parseInt(document.getElementById("numero").value);
+--indice; 
+
+for (let i=0;i<colores.length; i++){
+    if(i==indice){
+        //cambiar el color a el div caja
+        // i contiene el indice del elemento en el array
+        document.getElementById("caja").style.backgroundColor=colores[i];
+        document.getElementById("dia").style.color=colores[i];
+
+    }
+ }
+//recorrer el array con for of
+for(let item of colores){
+    //recorremos todos los elementos del array
+    if (item=="#001100"){
+        //item contiene el valor no el indice
+    document.getElementById("caja2").style.backgroundColor=i;
+    document.getElementById("caja2").style.transition="width 2s, height 2s, transform 2s";
+    document.getElementById("caja2").style.transform="rotate(180deg)";
+}
+
+/**
+ * transition-property: width;
+ * transition-duration: 2s;
+ * transition-property: height;
+ * transition-delay: 2s;
+ * 
+ */
+}
+
+
+

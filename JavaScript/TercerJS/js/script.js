@@ -21,7 +21,7 @@ let dias=["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado", "Domingo"];
  * 2. Los indices comienzan en 0
  * 3. Para acceder a un elemento lo tenemos que llamar con el nombre de aray y su indice->
  * dias[0]-> Lunes
- * 4 Puedo conocer el número de elementos de un Array.
+ * 4. Puedo conocer el número de elementos de un Array.
  */
 document.getElementById("miSalida").innerHTML=dias[0];
 document.getElementById("miSalida2").innerHTML=dias[6];
