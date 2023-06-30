@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gastos de envio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logotipo.png">
+        </div>
+        <div class="titulo">
+            <h1>Tu envío más rapido que volando</h1>
+        </div>
+    </header>
+
+  <section>
+    <label for="peso">Indica el peso del articulo enviado</label>
+    <input type="text" step="0.1" id="peso" required>
+    <button type="submit" class="boton" onclick="calcular()">¿Cuánto cuesta?</button>
+    <h3 id="resultado"></h3>
+</section>
+
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>

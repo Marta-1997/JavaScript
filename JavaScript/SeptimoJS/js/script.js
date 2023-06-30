@@ -195,8 +195,12 @@ let numero=document.getElementById("numero").value;
 console.log(numero);
 let elementos=numero.split(".");
 console.log(elementos);
+//concatenando
 let cadenaNumero=elementos[0] + ","+elementos[1];
+//con el elemento join
+let cadenaNumero2=elementos.join(",");
 console.log(cadenaNumero);
+console.log(cadenaNumero2);
 document.getElementById("numeroDev").innerHTML=cadenaNumero;
 }
 
