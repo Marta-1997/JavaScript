@@ -13,3 +13,20 @@ h1{
     color: darkred;
     font-style: italic;
 }
+
+@media(max-width: 800px){
+    .contenedor{
+        width: 100%;
+    }
+    .h1{
+        width: 90%;
+    }
+    #imgDni{ 
+        width: 100%;
+    }
+    .texto-centrado{
+        width: 90%;
+    }
+
+
+}

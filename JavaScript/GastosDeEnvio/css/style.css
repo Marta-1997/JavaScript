@@ -38,3 +38,59 @@ input#peso{ /*le dices que busque un input que tiene un id peso*/
     border: none;
     border-bottom: 1px dotted #0f2f62;
 }
+
+@media (width<=500px) {
+    header{
+        width: 100%;
+    }
+    .logo img{
+        max-width: 100%;
+        float: none;
+        padding-left: 0;
+    }
+    .logo{
+        margin: auto;
+    }
+    .titulo{
+        width: 100%;
+        margin: auto;
+    }
+    .titulo h1{
+        font-size: 2em;
+        text-align: center;
+        padding-top: 0;
+        width: 100%;
+    }
+    .boton, input{
+        margin: 5% 0;
+    }
+    input{
+        width: 75%;
+    }
+    section, .titulo{
+        width: 100%;
+        padding-top: 2% 0;
+        margin: auto;
+    }
+        body{
+        background-color: rgb(255, 255, 255);
+    }
+}
+@media (500px<= width <=800px) {
+    body{
+        background-color: bisque;
+    }
+        
+}
+@media (800px<= width <=1250px) {
+    body{
+        background-color: cadetblue;
+    }
+    
+}
+@media (width>1250px) {
+    body{
+        background-color: rgb(164, 185, 247);
+    }
+    
+}
