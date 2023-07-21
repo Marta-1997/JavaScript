@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Releway', sans-serif;
+}
+
+.logo img{
+    width: 30%;
+}
+.header{
+    background: rgb(55,157,19);
+    background: linear-gradient(180deg, rgba(55,157,19,1) 0%, rgba(114,218,76,1) 64%, rgba(208,235,198,1) 100%);
+    display: flex;
+    align-items: center;
+    
+
+}   
+.menu ul, .headerSup ul{
+    list-style-type:none ;
+    text-align: right;
+}
+.menu li{
+    color: rgb(1,40,1);
+    border-left: 3px solid rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 2em;
+    padding: 1%;
+    
+}
+.headerSup li{
+    display: inline-block;
+    font-size: 1em;
+    padding: 5px;
+}
+.headerSup ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.material-symbols-outlined{
+    padding-right: 5px;
+    
+}
+.headerSup ul{
+    background-color: #CFA455;
+    margin: 0;
+}
+.imagen img{
+    width: 100%;
+    transform: scaleX(-1); /*Voltear horizontalmente una imagen*/
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.imagen{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    top:0px;
+}
+.imagen h1{
+    color: white;
+}
+.imagen p{
+    color: white;
+    text-decoration: wavy;
+    font-style: italic ;
+}
+
+
+
+/* CSS */
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #a76c1498;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #a76c1498;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------*/
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+
+
