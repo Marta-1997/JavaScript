@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scriptCtto.js"></script>
+</head>
+<body>
+    <div class="menu">
+        
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <a class="inicio" href="index.html">Inicio</a>
+        <a href="envioN.html">Envio Nacional</a>
+        <a href="envioI.html">Envio internacional</a>
+        <a href="ctto.html">Contacto</a></li>
+      </div>
+      <img src="img/uship-contacto.png" alt="" class="bg">
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="nombreYapellidos">Nombre y Apellidos</label>
+          <input type="text" id="nombreYapellidos" name="nombreYapellidos" class="entrada">
+      
+      
+          
+        
+          <div class="telOculto">
+            <label for="telefono">Teléfono*:</label>
+            <input type="text" id="telefono" name="telefono">
+          </div>
+          <div class="emailOculto">
+            <label for="emai">Email*:</label>
+            <input type="text" id="telefono" name="email">
+          </div>
+        
+      
+          <label for="mensaje">Indica tu consulta</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu consulta" style="height:100px"></textarea>
+      
+          <button id="boton" type="button">Enviar</button>
+      <p id="mensaje"></p>
+        </form>
+      </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uship</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <div class="menu">
+        
+        <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <a class="inicio" href="index.html">Inicio</a>
+        <a href="envioN.html">Envio Nacional</a>
+        <a href="envioI.html">Envio internacional</a>
+        <a href="ctto.html">Contacto</a></li>
+      </div>
+      <img src="img/enviar-paqueteria.webp" alt="imagenes" class="imagenes">
+     
+      <div class="col-12 imagen" style="background-color: rgba(82, 82, 82, 0.219);">
+        
+        
+        <div class="centrado col-4">
+           <div class="h1"><h1>¿CUÁNTO ME VA A COSTAR MI ENVÍO?</h1> </div>
+                
+           <section class="peso">
+            <label for="peso">Indique el peso aproximado del artículo a enviar</label>
+            <select name="peso" id="peso">
+            <option value=""></option>
+            <option value="2.88">Hasta 0.5kg</option>
+            <option value="4.75">Hasta 5kg</option>
+            <option value="4.75">Hasta 5kg</option>
+            <option value="6.49">Hasta 10kg</option>
+            <option value="9.39">Hasta 20kg</option>
+          </select>
+           <br>
+           
+           <div class="km">
+           <label for="kilometros">Seleccione lugar de envío</label>
+                <select id="kilometros">
+                <option value=""></option>
+                <option value="2">Tu Localidad</option>
+                <option value="5">Tu Provincia</option>
+                <option value="8">Tu Comunidad Autónoma</option>
+                <option value="16">Baleares-Canarias</option>
+                <option value="18">Ceuta o Melilla</option>
+                <option value="12">Resto de España</option>
+                <option value="20">Europa</option>
+                <option value="25">Resto del Mundo</option>
+               </select>
+            
+            </div>
+              <button type="submit" onclick="calcular()" class="boton">Precio final</button>
+          <h3 id="resultado"></h3>    
+   
+            </div>
+            <img src="img/envio.png" alt="envio" class="envio">
+          </section>
+          
+         
+      
+   
+  
+    
+</body>
+</html>
