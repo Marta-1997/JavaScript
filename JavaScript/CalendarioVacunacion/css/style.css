@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+    padding: auto;
+    margin: 0;
+}
+ header{
+    text-align: center;
+    background-color: #428BBF;
+    color:#f1d06e;
+ }
+
+ img{
+   width: 40%;
+  
+}
+.container{ 
+    text-align: center;
+    background-color: #a5cfed;
+}
+.entrada{
+    font-size: x-large;
+}
