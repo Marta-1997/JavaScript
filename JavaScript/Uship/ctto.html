@@ -19,32 +19,29 @@
       </div>
       <img src="img/uship-contacto.png" alt="" class="bg">
 
-    <div class="container">
-        <form action="action_page.php">
-      
-          <label for="nombreYapellidos">Nombre y Apellidos</label>
-          <input type="text" id="nombreYapellidos" name="nombreYapellidos" class="entrada">
-      
-      
-          
-        
-          <div class="telOculto">
-            <label for="telefono">Teléfono*:</label>
-            <input type="text" id="telefono" name="telefono">
-          </div>
-          <div class="emailOculto">
-            <label for="emai">Email*:</label>
-            <input type="text" id="telefono" name="email">
-          </div>
-        
-      
-          <label for="mensaje">Indica tu consulta</label>
-          <textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu consulta" style="height:100px"></textarea>
-      
-          <button id="boton" type="button">Enviar</button>
-      <p id="mensaje"></p>
-        </form>
-      </div>
-</form>
+   
+
+<form name="fvalida">
+  <table>
+  <tr>
+       <td>Nombre: </td>
+       <td><input type="text" name="nombre" size="30" maxlength="100"></td>
+  </tr>
+  <tr>
+       <td>Telefono*: </td>
+       <td><input type="text" name="tel" size="3" maxlength="9" minlength="9"></td>
+  </tr>
+  <tr>
+    <td>Email*: </td>
+    <td><input type="text" name="email" size="3"></td>
+</tr>
+
+<label for="mensaje">Indica tu consulta</label>
+<textarea id="mensaje" name="mensaje" placeholder="Escribe aquí tu consulta" style="height:100px"></textarea>
+  <tr>
+       <td colspan="2" align="center"><input type="button" value="Enviar" onclick="valida_envia()"></td>
+  </tr>
+  </table>
+  </form>
 </body>
 </html>
