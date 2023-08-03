@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="js/scriptCto.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="galeria">
+    <div>
+        <img src="img/ballena.webp" alt="Ballena en acuario" class="imagen">
+    </div>
+    <div>
+        <img src="img/suricato-abrazo.webp" alt="Suricato" class="imagen">
+    </div>
+    <div><img src="img/buho-enmascarado.webp" alt="Buho enmascarado" class="imagen">
+    </div>
+    </div>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">Nombre</label>
+          <input type="text" id="fname" name="firstname" placeholder="Nombre" class="entrada">
+      
+          <label for="lname">Apellidos</label>
+          <input type="text" id="lname" name="lastname" placeholder="Apellidos" class="entrada">
+      
+          <label for="formCto">Preferencia de Contacto</label>
+          <select id="formCto" name="formCto" class="entrada">
+            <option value=""></option>
+            <option value="telefono">Teléfono</option>
+            <option value="email">Email</option>
+            <option value="correo">Correo Postal</option>
+          </select>
+          <div class="telOculto"> 
+             <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" placeholder="Teléfono"></div>
+          <div class="emailOculto">  
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Email"></div>
+          <div class="correoOculto"> 
+            <label for="direccion">Dirección Postal</label>
+            <input type="text" id="direccion" placeholder="Dirección"></div>
+      
+          <label for="subject">Mensaje</label>
+          <textarea id="subject" name="subject" placeholder="Cuentanos.." style="height:200px"></textarea>
+      
+          <button type="button" id="boton">Enviar</button>
+      
+        </form>
+        <p id="mensajeError"></p>
+      </div>
+    
+</body>
+</html>
